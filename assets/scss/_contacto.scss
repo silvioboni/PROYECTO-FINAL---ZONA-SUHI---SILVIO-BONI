@@ -1,0 +1,65 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+
+
+ }
+
+ input:focus{
+    border: solid rgb(214, 121, 15);
+    
+ }
+
+ form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: orange;
+   font-weight: bold;
+      input{color: rgb(145, 143, 143);
+            font-weight: bold;
+               }  
+               &:focus{
+                  border: solid rgb(214, 121, 15);
+               }
+ }
+
+ .boton {
+	width:200px;
+	height:50px;
+	background-color:beige;
+	text-align:center;
+	color:black;
+	border-radius:20px;
+	border:1px solid black;
+}
+
+.boton--enviar{
+	@extend .boton;
+	background-color: orange;
+	color:brown;
+   font-weight: bold;
+}
+
+.boton--limpiar{
+	@extend .boton;
+	background-color:brown;
+	color:orange;
+   font-weight: bold;
+}
+
+@mixin tamanio ($ancho, $alto) {
+   height: $alto;
+   width: $ancho;
+}
+.cajacomentario {
+   @include tamanio(500px, 200px);
+
+   label{
+   padding-right: 15px;
+   }
+}   

@@ -1,0 +1,172 @@
+/*/////////////////////////////////*/
+/* Normalice */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(17, 0, 0);
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 75px;
+  text-align: center;
+  color: beige;
+}
+
+h2 {
+  color: red;
+  font-style: oblique;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.carrusel {
+  width: 1350px;
+  height: 700px;
+}
+
+/*empieza el header*/
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.header .nav li {
+  list-style-type: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 30px;
+  padding: 10px;
+  background-color: rgb(173, 152, 152);
+}
+
+/*fin del header*/
+/*//////////////////////////////////*/
+/*Empieza el footer*/
+.pie-de-pagina {
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: small;
+  color: beige;
+}
+
+.redes {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #fff;
+  list-style-type: none;
+}
+
+.iconify {
+  font-size: 30px;
+  color: beige;
+}
+
+div {
+  background-color: #3673D9;
+  text-align: center;
+  padding: 1rem;
+  font-size: 35px;
+}
+
+.fotos-productos {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  flex-basis: content;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+}
+
+.bordes {
+  border-style: solid;
+  color: beige;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: beige;
+}
+
+input:focus {
+  border: solid rgb(214, 121, 15);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: beige;
+}
+form input {
+  color: black;
+}
+form:focus {
+  border: solid rgb(214, 121, 15);
+}
+
+.fotos-menu {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+}
+
+.horario-mapa {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  color: beige;
+}
+
+.historia {
+  text-align: center;
+  font-size: x-large;
+  font-family: initial;
+  line-height: 150%;
+}
+
+.historia p {
+  color: beige;
+}
+
+/*Este es un ejemplo para mostrar que no me sale el nesting, en el archivo de css me salen distintos que los ejemplo del profe y por ende no me los va a tomar el*/
+.ejemplonesting {
+  list-style: none;
+}
+.ejemplonesting li {
+  padding: 15px;
+}
+.ejemplonesting li a {
+  text-decoration: none;
+}
+.ejemplonesting li a:hover {
+  color: black;
+}
+
+/*# sourceMappingURL=styles-css.map */

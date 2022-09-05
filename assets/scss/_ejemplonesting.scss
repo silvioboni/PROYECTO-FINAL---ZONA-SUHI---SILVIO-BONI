@@ -1,0 +1,17 @@
+
+/*Este es un ejemplo para mostrar que no me sale el nesting, en el archivo de css me salen distintos que los ejemplo del profe y por ende no me los va a tomar el*/
+
+
+.ejemplonesting{
+    list-style: none;
+        li{
+            padding: 15px;
+                a{
+                    text-decoration: none;
+                    &:hover{
+                        color: black;
+                    }
+                }
+            }      
+
+}
